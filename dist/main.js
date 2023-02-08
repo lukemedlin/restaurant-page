@@ -1,1 +1,0 @@
-(()=>{const e=document.createElement("p"),t=document.querySelector("#content");e.textContent="Looks like webpack watch WOW is working!",t.appendChild(e)})();
