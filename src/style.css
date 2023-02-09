@@ -33,9 +33,11 @@ nav {
 
 nav ul {
   list-style: none;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
   padding: 10px;
-  gap: 5vw;
+  gap: 4vw;
 }
 
 nav ul li {
