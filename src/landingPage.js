@@ -6,7 +6,7 @@ export function loadNavBar() {
   const nav = document.createElement('nav');
   const ul = document.createElement('ul');
   const li1 = document.createElement('li');
-   const li1Text = document.createTextNode('Sushitown');
+  const li1Text = document.createTextNode('Sushitown');
   const span1 = document.createElement('span');
   span1.className = 'material-symbols-outlined logo';
   span1.textContent = 'set_meal';
@@ -95,4 +95,3 @@ export function loadLandingPage() {
   root.appendChild(main);
   root.appendChild(div3);
 }
-
